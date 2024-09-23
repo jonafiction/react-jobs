@@ -1,5 +1,5 @@
 import React from 'react'
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/react-2.svg'
 import {NavLink} from 'react-router-dom'
 const Navbar = () => {
   const linkClass = ({isActive})=> isActive ? 'bg-black text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2':'text-white hover:bg-gray-900 hover:text-white rounded-md px-3 py-2'
